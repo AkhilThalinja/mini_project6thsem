@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-image: url("./img/pexels-kyleroxas-2138922.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+header {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 24px 0; 
+    text-align: center;
+}    
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}    
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}    
+nav ul li a {
+    color: #4a0130;
+    text-decoration: none;
+    
+}    
+main {
+    padding: 20px;
+    min-height: 80vh;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+}
+form input {
+    margin-bottom: 1em;
+    padding: .5em;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+form button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    width: 100%;
+}
+form button:hover {
+    background-color: #555;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.message {
+    text-align: center;
+    margin: 20px 0;
+}
